@@ -1,3 +1,8 @@
 Collection of default config files for portability to new systems.
 
-For: Bash, i3, i3-status, vim, keybindings, feh (wallpaper)
+bash: .bashrc
+i3: config
+i3-status: config-bottom.conf, config-top.conf
+keybindings: .xbindkeysrc
+feh (wallpaper): .fehbg
+
