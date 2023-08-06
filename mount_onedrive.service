@@ -1,0 +1,9 @@
+[Unit]
+Description=OneDrive Mount on Startup
+
+[Service]
+ExecStart=rclone --vfs-cache-mode writes mount onedrive: %h/OneDrive
+
+[Install]
+WantedBy=default.target
+
