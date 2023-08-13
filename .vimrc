@@ -33,6 +33,8 @@ if has("gui_running")
 syntax on
 set number
 set ruler
+set wrap linebreak nolist
+set whichwrap+=<,>,h,l
 set wildmenu
 filetype plugin on
 set autoindent
