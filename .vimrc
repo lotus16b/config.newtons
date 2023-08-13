@@ -16,8 +16,19 @@ runtime! archlinux.vim
 
 " do not load defaults if ~/.vimrc is missing
 "let skip_defaults_vim=1
+
 set nocompatible
-colorscheme vividchalk
+colorscheme evening
+
+if has("gui_running")
+	    if has("gui_gtk")
+		:set guifont=Luxi\ Mono\ 13
+	    elseif has("x11")
+		:set guifont=*-lucidatypewriter-medium-r-normal-*-*-180-*-*-m-*-*
+	    elseif has("gui_win32")
+		:set guifont=Luxi_Mono:h13:cANSI
+	    endif
+	endif
 
 syntax on
 set number
