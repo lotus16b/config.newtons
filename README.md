@@ -1,6 +1,6 @@
 **Collection of default config files for portability to new systems.**
 
-Current version configured for Thinkpad X1 Carbon
+Current version configured for Thinkpad X1 Carbon [Lenovo Recovery](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-9th-gen-type-20xw-20xx/20xw/20xw00fwus/pf409e29/solutions/ht103653)
 
 a) bash: _.bashrc_  
 
