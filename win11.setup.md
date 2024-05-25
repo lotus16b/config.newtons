@@ -1,15 +1,21 @@
 **Win11 Setup**
 
-Application Folder a la MacOS: <br />
+<u>Application Folder a la MacOS:</u> <br />
+Right-click the desktop, create new shortcut:
 ```
 $ explorer.exe shell:AppsFolder
 ```
-Linux: <br />
+Right-click the shortcut, pin to Start
+
+<u>Start Menu:</u> <br />
+Folders: Files; Office; Comms; Edit; Gaming; Utils
+
+<u>Linux:</u> <br />
 [Windows Linux Resources](https://learn.microsoft.com/en-us/linux/)
 
 [Install WSL & Ruby on Rails](https://gorails.com/setup/windows/11)
 
-Git: <br />
+<u>Git:</u> <br />
 [Git Windows Installer](https://git-scm.com/download/win)
 
 [Github Desktop](https://desktop.github.com/)
@@ -17,15 +23,15 @@ Git: <br />
 ```
 $ git clone https://github.com/lotus16b/config.newtons
 ```
-Visual Studio Code: <br />
-Extensions: 'GitHub Pull Requests', 'GitHub Theme', 'WSL'
+<u>Visual Studio Code:</u> <br />
+Extensions: 'GitHub Pull Requests', 'GitHub Theme', 'WSL', 'Print'
 
 Terminal [Guide](https://code.visualstudio.com/docs/terminal/basics): 'Git Bash' [default]
 
-Vim:<br />
+<u>Vim:</u><br />
 [GVim Windows Installer](https://www.vim.org/download.php)
 
-.vimrc font setup for GUI in Windows:
+.vimrc goes in Home folder, font setup for GUI in Windows:
 ```
 if has("gui_running")
 	    if has("gui_gtk")
@@ -37,7 +43,7 @@ if has("gui_running")
 	    endif
 	endif
 ```
-Apps:<br />
+<u>Apps:</u><br />
 
 [Windows PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) - install thru Microsoft Store
 
